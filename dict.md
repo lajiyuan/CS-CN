@@ -1,0 +1,1 @@
+protocol  协议，约定 /ˈprōdəˌkôl/
