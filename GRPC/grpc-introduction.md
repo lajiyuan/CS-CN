@@ -53,7 +53,7 @@ gRPC 使用插件 protoc 用 proto 文件生成代码：将得到生成的 gRPC 
 
 ## 协议缓冲区版本
 
-虽然协议缓冲区已经对开源用户开放一段时间了，但该站点的大多数示例都使用协议缓冲区版本 3 (proto3)，它具有稍微简化的语法、一些有用的新功能并支持更多语言。 Proto3 目前可用于 Java、C++、Dart、Python、Objective-C、C#、lite-runtime (Android Java)、Ruby 和 JavaScript，以及来自 [golang/protobuf](https://pkg.go.dev/google.golang.org/protobuf) 的支持Go语言的生成器，其他的更多语言正在开发中。您可以在 [proto3支持的语言参考文档](https://developers.google.com/protocol-buffers/docs/proto3)  和 这个 [参考文档](https://developers.google.com/protocol-buffers/docs/reference/overview)中找到更多信息。 对于 .proto 文件格式的正式规范可以参考这个文档(proto 格式规范)[https://developers.google.com/protocol-buffers/docs/reference/proto3-spec]。
+虽然协议缓冲区已经对开源用户开放一段时间了，但该站点的大多数示例都使用协议缓冲区版本 3 (proto3)，它具有稍微简化的语法、一些有用的新功能并支持更多语言。 Proto3 目前可用于 Java、C++、Dart、Python、Objective-C、C#、lite-runtime (Android Java)、Ruby 和 JavaScript，以及来自 [golang/protobuf](https://pkg.go.dev/google.golang.org/protobuf) 的支持Go语言的生成器，其他的更多语言正在开发中。您可以在 [proto3支持的语言参考文档](https://developers.google.com/protocol-buffers/docs/proto3)  和 这个 [参考文档](https://developers.google.com/protocol-buffers/docs/reference/overview)中找到更多信息。 对于 .proto 文件格式的正式规范可以参考这个文档[proto 格式规范](https://developers.google.com/protocol-buffers/docs/reference/proto3-spec)。
 
 一般来说，虽然你可以使用 proto2（当前的默认协议缓冲区版本），但我们建议你将 proto3 与 gRPC 一起使用，因为它可以让你使用所有 gRPC 支持的语言，并避免 proto2 与 proto3 的客户端服务端之间通信的兼容性问题。
 
